@@ -22,6 +22,8 @@ public class BaseClass
         Reporter.log("Browser opened");
         driver.get("http://www.medinfi.com/");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+        System.out.print("Testing the git commit001");
     }
 //    @AfterClass
 //    public void quit(){
