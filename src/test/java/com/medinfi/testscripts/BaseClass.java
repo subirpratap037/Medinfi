@@ -24,6 +24,7 @@ public class BaseClass
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         System.out.print("Testing the git commit001");
+        System.out.print("Testing the git commit002");
     }
 //    @AfterClass
 //    public void quit(){
